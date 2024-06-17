@@ -35,31 +35,31 @@ function AboutMe() {
             <source src={herovid} type="video/mp4" />
           </video>
         </div>
+        <div className="contact">
+          <ul>
+            <li className="github">
+              <a href="https://github.com/notajax24" target="_blank">
+                <img src={github}></img>
+              </a>
+            </li>
+            <li className="instagram">
+              <a href="https://instagram.com/ajax.pvt/" target="_blank">
+                <img src={insta}></img>
+              </a>
+            </li>
+            <li className="facebook">
+              <a href="https://www.facebook.com/Ajay.jachak24" target="_blank">
+                <img src={fb}></img>
+              </a>
+            </li>
+            <li className="medium">
+              <a href="https://medium.com/@ajayjachak24">
+                <img src={medium}></img>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
-      <div className="contact">
-        <ul>
-          <li className="github">
-            <a href="https://github.com/notajax24" target="_blank">
-              <img src={github}></img>
-            </a>
-          </li>
-          <li className="instagram">
-            <a href="https://instagram.com/ajax.pvt/" target="_blank">
-              <img src={insta}></img>
-            </a>
-          </li>
-          <li className="facebook">
-            <a href="https://www.facebook.com/Ajay.jachak24" target="_blank">
-              <img src={fb}></img>
-            </a>
-          </li>
-          <li className="medium">
-            <a href="https://medium.com/@ajayjachak24">
-              <img src={medium}></img>
-            </a>
-          </li>
-        </ul>
-      </div>
     </>
   );
 }

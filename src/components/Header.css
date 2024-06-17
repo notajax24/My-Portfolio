@@ -10,6 +10,7 @@ body {
     rgba(58, 58, 58, 1) 100%
   );
   color: #ffffff;
+  z-index: 1000;
 }
 
 .header {
@@ -19,7 +20,6 @@ body {
   flex-direction: row;
   width: 100%;
   backdrop-filter: blur(10px);
-  z-index: 1000;
 }
 .logo {
   display: flex;

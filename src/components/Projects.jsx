@@ -8,7 +8,7 @@ import img4 from "../assets/img1.jpg";
 function Projects() {
   const Data = [
     {
-      title: "Image 1",
+      title: "Banking-app-reactJs",
       image: img1,
     },
     {

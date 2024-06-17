@@ -13,13 +13,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: auto;
+  width: auto;
   height: 100vh;
-  margin-top: -50px;
-  margin-bottom: -100px;
 }
 
 .projects h1 {
+  text-align: center;
   font-size: 30px;
   font-weight: 500;
   color: #ff9900;
@@ -32,8 +31,8 @@
 }
 .card {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   background-color: #a1a1a1;
   width: 350px;
   height: 350px;
