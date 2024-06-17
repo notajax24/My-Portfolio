@@ -8,19 +8,19 @@ import img4 from "../assets/img1.jpg";
 function Projects() {
   const Data = [
     {
-      title: "Banking-app-reactJs",
+      title: "Banking App",
       image: img1,
     },
     {
-      title: "Image 1",
+      title: "Python Tool for XSS",
       image: img2,
     },
     {
-      title: "Image 1",
+      title: "Project 3",
       image: img3,
     },
     {
-      title: "Image 1",
+      title: "Project 4",
       image: img4,
     },
   ];
@@ -29,6 +29,7 @@ function Projects() {
     return (
       <div className="card">
         <img className="p-image" src={image} alt={title}></img>
+        <label>{title}</label>
       </div>
     );
   }
