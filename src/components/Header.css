@@ -1,0 +1,51 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(87, 87, 87);
+  background: radial-gradient(
+    circle,
+    rgba(87, 87, 87, 1) 0%,
+    rgba(58, 58, 58, 1) 100%
+  );
+  color: #ffffff;
+}
+
+.header {
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+.logo {
+  display: flex;
+  padding-left: 66px;
+  padding-top: 35px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 100%;
+  margin-left: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu a {
+  width: 100px;
+  height: 100px;
+  padding-top: 70px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu a:hover {
+  cursor: pointer;
+  transform: scale(110%);
+  transition: ease-in 0.5s;
+  color: #ff9900;
+}
