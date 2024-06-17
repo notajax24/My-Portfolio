@@ -24,7 +24,6 @@
   position: relative;
   top: 0;
   max-width: 500px;
-  padding-top: 100px;
   margin-right: 45px;
 }
 .right img:hover {
@@ -52,7 +51,7 @@
   position: absolute;
   height: 500px;
   width: 280px;
-  padding-top: 250px;
+  padding-top: 200px;
   top: 50px;
   left: 50px;
   filter: blur(2px);
@@ -61,7 +60,7 @@
   position: absolute;
   height: 500px;
   width: 280px;
-  padding-top: 250px;
+  padding-top: 100px;
   top: 80px;
   left: 110px;
 }
@@ -76,7 +75,7 @@
   flex-direction: column;
   gap: 100px;
   list-style: none;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 .contact img {

@@ -2,31 +2,35 @@ import React from "react";
 import "./Projects.css";
 import img1 from "../assets/banking-app.jpg";
 import img2 from "../assets/ajaxsser.jpg";
-import img3 from "../assets/img1.jpg";
+import img3 from "../assets/medium.jpg";
 import img4 from "../assets/img1.jpg";
+import bgvideo from "../assets/bgvideo.mp4";
 
 function Projects() {
   const Data = [
     {
       title: "React Banking App",
       image: img1,
-      link,
+      link: "https://github.com/notajax24/Banking-app-reactJs",
     },
     {
       title: "Python Tool for XSS",
       image: img2,
+      link: "https://github.com/notajax24/Ajaxsser",
     },
     {
-      title: "Project 3",
+      title: "Medium Writeups",
       image: img3,
+      link: "https://github.com/notajax24/Banking-app-reactJs",
     },
     {
       title: "Project 4",
       image: img4,
+      link: "https://github.com/notajax24/Banking-app-reactJs",
     },
   ];
 
-  function Box({ title, image }) {
+  function Box({ title, image, link }) {
     return (
       <div className="card">
         <a href={link} target="_blank">
@@ -39,6 +43,9 @@ function Projects() {
   return (
     <>
       <section id="projects" className="projects">
+        <video muted loop id="myVideo">
+          <source src={bgvideo} type="video/mp4" />
+        </video>
         <h1>My Projects Collection</h1>
         <p>
           Explore my projects to see how I{" "}

@@ -70,7 +70,6 @@ body {
 
 .middle {
   display: flex;
-  justify-content: center;
   position: relative;
   top: 0;
   max-width: 500px;
@@ -80,9 +79,12 @@ body {
 }
 
 .middle img {
-  height: 644.99px;
+  display: flex;
+  align-items: center;
+  height: 600px;
   width: 600px;
-
+  padding-top: 50px;
+  padding-left: 50px;
   animation: slide-img-anim 1.5s ease-out forwards;
 }
 .middle:hover {
@@ -148,7 +150,6 @@ body {
   width: auto;
   height: 100vh;
   display: flex;
-  background-color: #606060;
   flex-direction: column;
   align-items: center;
 }
@@ -169,8 +170,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #a1a1a1;
-
+  background: rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
   width: 350px;
   height: 350px;
 }
@@ -192,5 +193,16 @@ body {
   transform: scale(110%);
   transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
   cursor: pointer;
-  background-color: #ff9900;
+}
+
+/* =============================*/
+
+#myVideo {
+  background: no-repeat;
+  position: fixed;
+  z-index: -1000;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }

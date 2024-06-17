@@ -3,12 +3,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: rgb(87, 87, 87);
-  background: radial-gradient(
-    circle,
-    rgba(87, 87, 87, 1) 0%,
-    rgba(58, 58, 58, 1) 100%
-  );
   color: #ffffff;
   z-index: 1000;
 }
@@ -19,7 +13,6 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  backdrop-filter: blur(10px);
 }
 .logo {
   display: flex;

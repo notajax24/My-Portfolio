@@ -6,6 +6,7 @@ import icon2 from "../assets/icon2.gif";
 import icon3 from "../assets/icon3.gif";
 import icon4 from "../assets/icon4.gif";
 import resume from "../assets/resume.pdf";
+import bgvideo from "../assets/bgvideo.mp4";
 
 export const Data = [
   {
@@ -39,6 +40,17 @@ function home() {
   return (
     <>
       <section id="home" className="hero">
+        <video
+          id="myVideo"
+          autoPlay
+          loop
+          allowFullScreen
+          muted
+          playsinline
+          preload="metadata"
+        >
+          <source src={bgvideo} type="video/mp4" />
+        </video>
         <div className="left">
           <h1>
             <span style={{ fontSize: 50, fontFamily: "Garamond, serif " }}>
