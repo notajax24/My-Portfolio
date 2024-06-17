@@ -17,7 +17,7 @@ function AboutMe() {
               ☺
             </span>
             <br />
-            Thank You
+            Thank You.
             <br />
             For Visiting
           </h1>
