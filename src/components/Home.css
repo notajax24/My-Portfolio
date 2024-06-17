@@ -59,7 +59,7 @@ body {
   color: #ff9900;
   border-radius: 20px;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
 }
 .left button:hover {
   transform: scale(110%);
@@ -197,12 +197,12 @@ body {
 
 /* =============================*/
 
-#myVideo {
-  background: no-repeat;
+.hero video {
+  object-fit: cover;
   position: fixed;
-  z-index: -1000;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  z-index: -1;
 }

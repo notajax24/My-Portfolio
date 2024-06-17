@@ -40,16 +40,8 @@ function home() {
   return (
     <>
       <section id="home" className="hero">
-        <video
-          id="myVideo"
-          autoPlay
-          loop
-          allowFullScreen
-          muted
-          playsinline
-          preload="metadata"
-        >
-          <source src={bgvideo} type="video/mp4" />
+        <video src={bgvideo} type="video/mp4" autoPlay muted loop>
+          Your browser does not supports video tag.
         </video>
         <div className="left">
           <h1>
