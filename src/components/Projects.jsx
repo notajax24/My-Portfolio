@@ -1,15 +1,16 @@
 import React from "react";
 import "./Projects.css";
-import img1 from "../assets/img1.jpg";
-import img2 from "../assets/img1.jpg";
+import img1 from "../assets/banking-app.jpg";
+import img2 from "../assets/ajaxsser.jpg";
 import img3 from "../assets/img1.jpg";
 import img4 from "../assets/img1.jpg";
 
 function Projects() {
   const Data = [
     {
-      title: "Banking App",
+      title: "React Banking App",
       image: img1,
+      link,
     },
     {
       title: "Python Tool for XSS",
@@ -28,7 +29,9 @@ function Projects() {
   function Box({ title, image }) {
     return (
       <div className="card">
-        <img className="p-image" src={image} alt={title}></img>
+        <a href={link} target="_blank">
+          <img className="p-image" src={image} alt={title}></img>
+        </a>
         <label>{title}</label>
       </div>
     );
