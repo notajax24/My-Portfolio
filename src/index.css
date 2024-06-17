@@ -105,3 +105,6 @@
   font-weight: 900;
   font-style: italic;
 }
+html {
+  scroll-behavior: smooth;
+}

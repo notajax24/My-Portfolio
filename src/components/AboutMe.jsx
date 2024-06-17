@@ -21,7 +21,7 @@ function AboutMe() {
             <br />
             For Visiting
           </h1>
-          <h2>Learn More !</h2>
+          <h2>Made With ❤️ By Me</h2>
           <button className="resume">
             <a href="https://instagram.com/ajax.pvt" target="_blank">
               Contact
